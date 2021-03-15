@@ -1,0 +1,47 @@
+* {
+    font-family:fantasy;
+}
+body {
+    margin: 5px 5px 5px 5px;
+    background-color:beige;
+    line-height: 1.5;
+}
+.heading {
+    background-color:white;
+    height: 70px;
+    padding: 12px 0px 8px 0px;
+}
+.logo {
+    line-height: 1;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: black;
+    display: block;
+}
+#topnav {
+    background-color:darkgray;
+    padding: 0px;
+    color:white;
+    letter-spacing: 1px;
+}
+.top-navbar {
+    float: left;
+    height: 50px;
+}
+/*
+.Spongebob {
+    float:right;
+    background:grey;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+}
+.Spongbob img {
+    vertical-align:top;
+    padding: 2px 5px 2px 5px;
+}
+.Spongebob p {
+    float: center;
+    word-break:break-all;
+}
+*/
