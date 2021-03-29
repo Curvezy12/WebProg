@@ -1,0 +1,80 @@
+* {
+    width:650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: purple;
+}
+p {
+    margin: 0px;
+}
+.poster {
+    background-color: white;
+    width: 650px;
+}
+.banner {
+    background-image: url("Task3banner.PNG");
+    background-size: 650px;
+    alt: "banner";
+    min-height: 257px;
+    background-repeat: no-repeat;
+}
+.headline-border {
+    width: 620px;
+    margin: 15px;
+}
+.headline {
+    background-color: white;
+    line-break: auto;
+    width: 620px;
+    padding: 10px 0px 10px 0px;
+}
+.dates {
+    border-top: dashed;
+    border-color: grey;
+    border-width: 2px;
+}
+.ReadMore {
+    height: 40px;
+    width: 570px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+#ReadMoreText {
+    width: 540px;
+}
+Button {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(121, 0, 100);
+    text-decoration: none;
+    border: none;
+    overflow: hidden;
+}
+#ButtonProperties {
+    height: 80px;
+    width: 80px;
+    float: right;
+    margin-top: -59px;
+}
+.LightDate {
+    background-color: rgb(255, 0, 212);
+    width: 610px;
+    height: 135px;
+    padding: 20px;
+}
+.DarkDate {
+    background-color: rgb(121, 0, 100);
+    width: 610px;
+    height: 135px;
+    padding: 20px;
+}
+.footer {
+    background-color: black;
+}
+.center {
+    text-align: center;
+}
+.text-decoration {
+    text-decoration: none;
+}
