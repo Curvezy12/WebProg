@@ -56,21 +56,49 @@ Button {
     width: 80px;
     float: right;
     margin-top: -59px;
+    outline: none;
 }
 .LightDate {
     background-color: rgb(255, 0, 212);
     width: 610px;
-    height: 135px;
+    height: 90px;
     padding: 20px;
+}
+.LightDate Strong {
+    width: 30%;
+   align-items: left;
+}
+.LightDate p {
+    Width: 70%;
+    align-items: right;
+}
+.DarkDate Strong {
+    width: 30%;
+    align-items: left;
+}
+.DarkDate p {
+    Width: 70%;
+    align-items: right;
 }
 .DarkDate {
     background-color: rgb(121, 0, 100);
     width: 610px;
-    height: 135px;
+    height: 90px;
     padding: 20px;
 }
 .footer {
     background-color: black;
+    width: 610px;
+    height: 120px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-break: inherit;
+    position: relative;
+}
+.footer p {
+    width: 580px;
+    padding: 15px;
 }
 .center {
     text-align: center;
