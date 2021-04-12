@@ -28,11 +28,14 @@ p {
     line-break: auto;
     width: 620px;
     padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    line-height: 130%;
 }
 .dates {
     border-top: dashed;
     border-color: grey;
     border-width: 2px;
+    line-height: 150%;
 }
 .ReadMore {
     height: 40px;
@@ -42,49 +45,59 @@ p {
 }
 #ReadMoreText {
     width: 540px;
+    font-weight: bold;
 }
 Button {
-    height: 80px;
-    width: 80px;
-    background-color: rgb(121, 0, 100);
+    background-color: rgb(167, 28, 202);
     text-decoration: none;
     border: none;
-    overflow: hidden;
+    font-size: 45px;
+    color: white;
 }
-#ButtonProperties {
+.ButtonProperties {
     height: 80px;
     width: 80px;
     float: right;
-    margin-top: -59px;
+    margin-top: -64px;
     outline: none;
+    vertical-align: middle;
+    font-weight: bold;
 }
 .LightDate {
-    background-color: rgb(255, 0, 212);
+    display: flex;
+    background-color: rgb(211, 75, 245);
     width: 610px;
     height: 90px;
     padding: 20px;
-}
-.LightDate Strong {
-    width: 30%;
-   align-items: left;
-}
-.LightDate p {
-    Width: 70%;
-    align-items: right;
-}
-.DarkDate Strong {
-    width: 30%;
-    align-items: left;
-}
-.DarkDate p {
-    Width: 70%;
-    align-items: right;
+    align-items: center;
+    justify-content: center;
 }
 .DarkDate {
-    background-color: rgb(121, 0, 100);
+    display: flex;
+    background-color: rgb(167, 28, 202);
     width: 610px;
     height: 90px;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.AlignRight {
+    width: 70%;
+    float: right;
+    color: white;
+
+}
+.AlignLeft {
+    display: flex;
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    line-height: 180%;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 .footer {
     background-color: black;
