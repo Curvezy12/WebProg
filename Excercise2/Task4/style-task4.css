@@ -67,10 +67,6 @@ input {
     font-size: 14px;
     padding: 10px 5px;
 }
-.SignUp Input:hover {
-    background-color: green;
-
-}
 .Name {
     display: flex;
 }
@@ -84,6 +80,7 @@ input {
 }
 .CreateAccountButton {
     border: none;
+    outline: none;
     background-color: rgb(6, 163, 14);
     color: white;
     padding: 12px 48px;
