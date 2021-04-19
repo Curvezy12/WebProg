@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(49, 47, 71);
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+ul li {
+    position: relative;
+    padding: 15px 8px 12px 30px;
+    font-size: 18px;
+    list-style-type: none;
+}
+.Container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 15px 10px;
+    background: rgb(184, 184, 184);
+}
+.AddingItems {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+.AddingItems input {
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+.AddBtn {
+    padding: 10px 15px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(85, 85, 85);
+    border: none;
+    border-radius: 0;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+}
+.AddBtn:hover {
+    background-color: rgb(187, 187, 187);
+}
