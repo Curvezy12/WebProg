@@ -1,0 +1,110 @@
+* {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+}
+.Webpage {
+    width: 70%;
+}
+.Heading {
+    display: flex;
+    margin: 10px 10px 0px 10px;
+}
+.Logo {
+    width: 30%;
+    margin: 5px;
+    padding: 20px 0px;
+}
+.Logo h2 {
+    font-size: 36px;
+    color: rgb(221, 180, 105);
+    padding: 0px 0px 0px 90px;
+    margin: 5px 5px 0px 5px;
+}
+.Logo p {
+    float: right;
+    padding: 0px 90px 0px 0px;
+    margin: 0px 5px 5px 5px;
+}
+.Navbar {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    width: 70%;
+    margin: 0px;
+}
+.NavButton {
+    background-color: rgb(221, 180, 105);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 60px;
+    margin: 0px 1px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    white-space: none;
+}
+.Banner {
+    background-color: rgb(155, 236, 88);
+    text-align: right;
+    padding: 30px 40px 40px 40px;
+    margin: 0px 10px;
+    color: white;
+}
+.Banner h1 {
+    background-color: rgb(155, 236, 88);
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+.Banner p {
+    background-color: rgb(155, 236, 88);
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.Body {
+    display: flex;
+    padding: 30px;
+}
+.MainBody {
+    border-right: 1px solid grey;
+    width: 70%;
+    padding: 0px 60px 0px 0px;
+    margin: 20px;
+}
+.MainBody h2 {
+    font-size: 36px;
+    color: rgb(221, 180, 105);
+}
+.MainBody p {
+    word-wrap: break-word;
+    padding: 15px 10px 15px 0px;
+}
+.SideBody {
+    width: 30%;
+    padding: 0px;
+    margin: 20px;
+}
+.SideBody h2 {
+    font-size: 36px;
+    color: grey;
+}
+.SideBody p {
+    padding: 0px 0px 15px 0px;
+}
+.NewsDates {
+    font-size: 18px;
+    color: rgb(221, 180, 105);
+}
+.Footer {
+    background-color: rgb(155, 236, 88);
+    padding: 10px;
+}
+.Footer p {
+    float: right;
+    background-color: rgb(155, 236, 88);
+}
+.Footer a {
+    background-color: rgb(155, 236, 88);
+}
