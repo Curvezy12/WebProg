@@ -7,18 +7,19 @@
     </head>
     <body>
         <div class="Container">
+            <h1>To-Do List</h1>
             <div class="AddingItems">
                 <input type="text" id="UserInput" placeholder="Add new item...">
                 <div>
-                    <button type="button" class="AddBtn">Add</button>
+                    <button type="button" class="AddBtn" onclick="AddItem()">Add</button>
                 </div> 
             </div>
             <div class="ItemsAdded">
                 <ul id="NewUl">
-                    <li>test</li>
                 </ul>
             </div>
-         </div>
+            <button type="button" class="RemoveTask" onclick="ClearAll()">Remove All Tasks</button>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
