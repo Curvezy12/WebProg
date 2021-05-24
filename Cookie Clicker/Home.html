@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Corona Clicker</title>
+        <title>Cookie Clicker</title>
         <link rel="stylesheet" href="Home.css">
         <meta content="width:device-width">
     </head>
@@ -11,21 +11,37 @@
             <div id="Game" class="BgDefault">
                 <div id="ClickerSection">
                     <div id="Cookies" class="Title" style="cursor: auto;">
-                        999 Cookies
-                        <div style="font-size: 50%;">per second: 0.2</div>
+                        0 Cookies
+                        <div id="CookiesPerSecond" style="font-size: 50%">per second: 0</div>
                     </div>
                     <div id="BakeryNameAnchor">
-                        <div id="BakeryName" class="Title">Seb's Bakery</div>
+                        <div id="BakeryName" class="Title" onclick="BakeryName()">Seb's Bakery</div>
                     </div>
                     <div id="CookieAnchor">
-                        <div id="BigCookie" onclick="breath()"></div>
+                        <div id="BigCookie" onclick="IncreaseByClick()"></div>
                         <div id="CookieNumbers"></div>
                     </div>
                 </div>
                 <div class="SeperatorLeft"></div>
                 <div class="SeperatorRight"></div>
                 <div id="InfoSection"></div>
-                <div id="UpgradeSection"></div>
+                <div id="UpgradeSection">
+                    <div id="Store">
+                        <div id="StoreTitle" class="Title">Store</div>
+                        <div id="Upgrades" class="StoreSection">
+                            <div id="Upgrade0" style="background-position: 0px -48px" onclick="GameUpgradesById[1].click(event)">Upgrade#1</div>
+                        </div>
+                        <div id="Products" class="StoreSection">
+                            <div id="Product0">
+                                <div class="Content">
+                                    <div class="Title" id="ProductName0">Cursor</div>
+                                    <span class="Price" id="ProductPrice0">15</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div> 
         <script src="Home.js"></script>

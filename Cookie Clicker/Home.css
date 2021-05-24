@@ -52,25 +52,6 @@ div {
     background-image: url("img/BgBlue.jpg");
     background-repeat: repeat-y;
 }
-#InfoSection {
-    position: absolute;
-    left: 30%;
-    padding-left: 16px;
-    margin-right: 15px;
-    top: 0px;
-    right: 320px;
-    bottom: 0px;
-    min-width: 100px;
-}
-#UpgradeSection {
-    height: 100%;
-    top: 0px;
-    right: 0px;
-    min-width: 100px;
-}
-
-
-
 /*#################################################################
 #####################     Clicker Section     #####################
 #################################################################*/
@@ -107,21 +88,14 @@ div {
     border-radius: 12px;
     font-size: 20px;
 }
+#BakeryName:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #fff;
+}
 #CookieAnchor {
     position: absolute;
     left: 50%;
     top: 40%;
-}
-@keyframes bounce {
-    0% {
-        transform: rotate(0deg) scaleX(1) scaleY(1);
-    }
-    50% {
-        transform: rotate(0deg) scaleX(1.1) scaleY(1.1);
-    }
-    100% {
-        transform: rotate(0deg) scaleX(1) scaleY(1);
-    }
 }
 #BigCookie {
     width: 256px;
@@ -133,6 +107,43 @@ div {
     top: -128px;
     cursor: pointer;
     object-fit: cover;
-    animation-name: bounce;
-    animation-duration: 0.8s;
+}
+/*#################################################################
+#####################      Info Section      ######################
+#################################################################*/
+#InfoSection {
+    position: absolute;
+    left: 30%;
+    padding-left: 16px;
+    margin-right: 15px;
+    top: 0px;
+    right: 320px;
+    bottom: 0px;
+    min-width: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*#################################################################
+#####################     Upgrade Section     #####################
+#################################################################*/
+#UpgradeSection {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#StoreTitle {
+    text-align: center;
+    padding: 8px;
+}
+.StoreSection {
+    width: 300px;
+    position: relative;
+    overflow-y: hidden;
+    padding-top: 16px;
+    background: url(img/PanelHorizontal.png) repeat-x;
 }
